@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+* { padding: 0; margin: 0;}
+body {font-family: 'Lato', sans-serif; letter-spacing: 1px;} 
+header {
+    text-align: justify;
+    width:100%;
+    background: #99957a;
+    color: #fff;
+    position:fixed;
+} 
+
+header img {
+    margin-left: 20px;
+    height:5em;
+    float:left;
+}
+
+nav { width: 410px; float: right; margin-top: 20px; margin-right:20px; }
+
+nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: none;   
+}
+
+nav li{
+    margin-top: 9px;    
+    float: left;
+    padding-left: 21px;
+}
+
+nav li a { color: white; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+
+nav li a:hover { color: #fff; opacity:1;  }
+
+
+@media screen and (max-width: 720px){
+     
+    header {
+        height: auto;
+    }
+     
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+     }
+
+#container {
+	width:100%;
+	margin:auto;
+    clear:both;
+    
+}
+
+#section1 {
+    background: #bcb696 50% 0 no-repeat fixed;
+    margin: auto;
+    padding: 100px 40px 260px 40px;
+    background-size: auto;
+}
+
+#section1 p{
+    padding-top: 10px;
+}
+
+#section2 {
+    background-color: #d5d7a8;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 40px 200px 40px;
+}
+
+#section3 {
+    background-color: #e7dfba;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 40px 100px 40px;
+
+
+}
+#imgleft img{
+    height:400px;
+    padding: 20px;
+    float:left;
+    
+}
+#imgright img{
+    height:400px;
+    float:right;
+    padding: 20px;
+}
+
+#memberdivider{
+    clear:both;
+    overflow:auto;
+}
+
+#memberinfo {
+    width:50%;
+    float:right;
+    margin:30px;
+    text-align:right;
+}
+
+#memberinfoflip {
+    width:50%;
+    float:left;
+    margin:30px;}
+
+#memberinfoflip p{  
+    text-align:left;}
+
+
+#footer {
+    background-color: #99957a;
+    height:4em;
+    text-align:center;
+}
